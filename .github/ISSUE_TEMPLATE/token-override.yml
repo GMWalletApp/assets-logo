@@ -68,7 +68,3 @@ body:
       options:
         - label: "I confirm this logo is appropriate and follows the project's guidelines"
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        By submitting this contribution, you agree to the [GM Wallet Contributor Terms 2.2](https://github.com/GMWalletApp/assets-logo/blob/HEAD/LICENSE#L695).
