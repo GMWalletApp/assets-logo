@@ -68,11 +68,7 @@ body:
       options:
         - label: "I confirm this logo is appropriate and follows the project's guidelines"
           required: true
-  - type: input
-    id: contributor-signature
+  - type: markdown
     attributes:
-      label: Contributor signature
-      description: "By typing your full name and the entity you represent (or 'myself'), you electronically sign the [GM Wallet Contributor Terms 2.0](https://github.com/GMWalletApp/assets-logo/blob/HEAD/CONTRIBUTING.md) for this submission."
-      placeholder: Full name, for myself or legal entity
-    validations:
-      required: true
+      value: |
+        By submitting this contribution, you agree to the [GM Wallet Contributor Terms 2.2](https://github.com/GMWalletApp/assets-logo/blob/HEAD/CONTRIBUTING.md).
